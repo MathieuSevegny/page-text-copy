@@ -11,7 +11,9 @@ function Copy(sites){
 
     for (let i = 0; i < site.paths.length; i++) {
       if (i !== 0){content += site.separator}
-      content += getElementByXpath(site.paths[i].path).textContent
+	  
+	  let element = getElementByXpath(site.paths[i].path).textContent;
+      content += element.trim()
     }
     //Adds the content to clipboard
     navigator.clipboard.writeText(content)
