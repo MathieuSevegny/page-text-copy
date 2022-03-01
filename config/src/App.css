@@ -1,0 +1,47 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.site-row{
+  background-color: #21252c !important;
+  color: white !important;
+}
+
+.site-row span{
+  color: white;
+}
+.site-row svg{
+  color: white !important;
+}
+.site-row div {
+  background-color: #2f3541 !important;
+}
+
+.sites{
+  margin-top: 5%;
+  text-align: center;
+  width: 50%;
+}
+.sites button{
+  margin-bottom: 10%;
+}
+
+.xpaths{
+  margin-top: 5%;
+  text-align: center;
+  width: 50%;
+}
+.xpaths button{
+  margin-bottom: 10%;
+}
+
+.input{
+  color: white !important;
+  background-color: #282c34;
+}
